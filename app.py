@@ -15,7 +15,7 @@ colors = {
 
 Ecoinnovazione_logo = "https://www.emiliaromagnastartup.it/sites/default/files/ecoinnovazione.jpg"
 Hydro_logo = "http://www.clairfield.com/wp-content/uploads/hydro_logo_horizontal_aluminium-300x124.png"
-df = pd.read_csv('https://github.com/Jiwikhd/Ecoinnovazione/blob/main/CFTool.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/Jiwikhd/Ecoinnovazione/main/CFTool.csv')
 
 app.layout = html.Div([
 

@@ -352,4 +352,4 @@ def update_output_div(input_1, input_2, input_3, input_4, input_5, input_6, inpu
     return fig, carbon, carbon_footprint_ext, carbon_footprint_fab, carbon_footprint_ano, carbon_footprint_pain, carbon_footprint_Down, msg, clr, clr2, clr3, clr4, clr5, clr6, total
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(debug=True)

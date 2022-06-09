@@ -1,4 +1,5 @@
 from dash import Dash, dcc, State, html, Input, Output
+import os
 import dash_bootstrap_components as dbc
 from dash_bootstrap_components._components.Container import Container
 import pandas as pd
@@ -8,6 +9,8 @@ import plotly.graph_objects as go
 
 
 app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
+
+server = app.server
 
 colors = {
     'background': '#b3cde0'

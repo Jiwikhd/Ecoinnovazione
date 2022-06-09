@@ -1,4 +1,5 @@
 from dash import Dash, dcc, State, html, Input, Output
+import dash_auth
 import os
 import dash_bootstrap_components as dbc
 from dash_bootstrap_components._components.Container import Container
@@ -6,10 +7,15 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
-
+VALID_USERNAME_PASSWORD_PAIRS = {
+    'Eco-22': 'Hydro-22'
+}
 
 app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+auth = dash_auth.BasicAuth(
+    app,
+    VALID_USERNAME_PASSWORD_PAIRS
+)
 server = app.server
 
 colors = {

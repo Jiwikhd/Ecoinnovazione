@@ -16,6 +16,7 @@ Jinja2==3.1.2
 MarkupSafe==2.1.1
 plotly==5.8.1
 pandas==1.4.2
+requests==2.27.1
 tenacity==8.0.1
 Werkzeug==2.1.2
 zipp==3.8.0

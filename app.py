@@ -1,10 +1,11 @@
 from dash import Dash, dcc, State, html, Input, Output
 import dash_bootstrap_components as dbc
 from dash_bootstrap_components._components.Container import Container
+import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
-import pandas as pd
+
 
 app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 

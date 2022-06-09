@@ -1,0 +1,28 @@
+Name,Boolean,CF
+Reduxa,,4.067969267
+Circal,,2.372292955
+Hydro Europe,,5.775971522
+Speedline,,7.540025614
+Average billet consumed in Europe,,8.705228632
+Average billet produced in Europe,,6.692200701
+Average billet consumed by Hydro-Nenzing,,6.363360336
+Hydro-Nenzing extrusion,,0.095508795
+Average European extrusion,,0.618241517
+Generic - based on extrusion by Hydro-Nenzing,,0.310637099
+"Hydro-Nenzing fabrication (87,4% Nenzing and 12,6% external)",,0.069907231
+Hydro-Nenzing fabrication (100% Nenzing),,0.058360238
+Generic - based on fabrication by Hydro-Nenzing,,0.149713032
+Average anodizing for Hydro-Nenzing (85% by Collini),,0.563027773
+Generic anodizing,,5.859494974
+Generic anodizing (excluded pack and transport),,5.737488779
+Packaging and transport to/from Nenzing,,0.122006196
+Average painting for Hydro-Nenzing,,0.225246279
+Road transport + packaging,,0.034424997
+Road transport + packaging - only in case of painted profile,,0.035951057
+End of life ,,0.034895312
+End of life  - only in case of painted profile,,0.036442221
+No Fabrication,,0
+No Anodizing,,0
+No Painting,,0
+No Distribution,,0
+No EoL,,0
